@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.framgia.project1.demodiagramongooglemap.MapsActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:id="@+id/show_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:paddingRight="10dp"
+                android:text="make edge" />
+
+            <Button
+                android:id="@+id/delete_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:paddingRight="10dp"
+                android:text="delete all" />
+
+            <Button
+                android:id="@+id/find_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:paddingRight="10dp"
+                android:text="draw path" />
+            <Button
+                android:id="@+id/demo_find_way"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:paddingRight="10dp"
+                android:text="find way" />
+        </LinearLayout>
+    </fragment>
+
+</FrameLayout>

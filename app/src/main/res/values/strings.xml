@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoDiagramOnGoogleMap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_draw_path">Map</string>
+</resources>
